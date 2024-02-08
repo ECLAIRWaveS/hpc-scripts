@@ -7,3 +7,5 @@ unset I_MPI_ROOT
 module load gcc/12.2.0
 
 module load openmpi/4.1.5
+
+export CC=gcc CXX=g++ FC=gfortran
